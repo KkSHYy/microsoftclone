@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main
+{
+  padding: 20px 80px;
+}
+header
+{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.logo
+{
+  padding-right: 20px;
+}
+.left-side
+{
+  display: flex;
+  align-items: center;
+}
+a
+{
+  text-decoration: none;
+  padding-right: 10px;
+  color: rgb(69, 65, 65);
+}
+a:hover {
+  text-decoration: underline 1px solid;
+  text-underline-offset: 5px;
+}
+.section
+{
+  background-image: url('/assets/images/showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 6%;
+}
+
+.dis-info {
+  text-align: center;
+
+}
+
+.dis-info p {
+  margin: 20px 0;
+}
+
+.dis-info button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cards
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.cards .first
+{ 
+  background-image: url(/assets/images/card1.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.cards .second
+{ 
+  background-image: url(/assets/images/card2.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-left:20px;
+}
+.cards .third 
+{
+  background-image: url('/assets/images/card3.png');
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.cards .fourth 
+{
+  background-image: url('/assets/images/card4.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-left:20px;
+}
+.cards h2
+{
+  font-size: 16px;
+  margin-top: 180px;
+}
+.cards p
+{
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cards a 
+{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(13, 13, 233);
+}
+.xbox
+{
+  background-image: url(/assets/images/xbox.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.xbox-info 
+{
+  width: 450px;
+  height: 200px;
+}
+.xbox-info h2
+{
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.xbox-info p
+{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.xbox-info button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px 30px;
+  font-weight: bold;
+}
+.cards .fifth
+{ 
+  background-image: url('/assets/images/card5.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+}
+.cards .sixth
+{ 
+  background-image: url('/assets/images/card6.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  margin-left:20px;
+}
+.cards .seventh 
+{
+  background-image: url('/assets/images/card7.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  margin-left:20px;
+}
+.cards .eighth 
+{
+  background-image: url('/assets/images/card8.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 400px;
+  margin-left:20px;
+}
+.nature
+{
+  background-image: url('/assets/images/carbon.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 350px;
+  margin-bottom: 20px;
+}
+.nature-info 
+{
+  width: 620px;
+  height: 200px;
+}
+.nature-info h2
+{
+  padding-top: 100px;
+  padding-left: 30px;
+  color: white;
+}
+.nature-info p
+{
+  padding-left: 30px;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+.nature-info button {
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 20px 30px;
+  font-weight: bold;
+}
+.social 
+{
+  display:inline-flex;
+  padding: 10px 0;
+}
+.social img
+{
+  margin-left: 20px;
+}
+.links
+{
+  width: full;
+  background-color: hsl(0, 0%, 95%);
+  padding: 40px 120px;
+}
+.link-info
+{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.link-info ul 
+{
+  list-style-type: none;
+}
+.link-info li
+{
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.footer
+{
+  background-color: hsl(0, 0%, 95%);
+  padding-bottom:60px;
+}
+.footer ul
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 105px;
+
+ 
+}
+.footer li
+{
+  font-size: 12px;
+}
